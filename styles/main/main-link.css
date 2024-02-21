@@ -1,0 +1,12 @@
+main .main-link {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+main .main-link h2 {
+    font-size: 50px;
+    font-weight: 900;
+}

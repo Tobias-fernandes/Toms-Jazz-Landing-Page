@@ -1,0 +1,11 @@
+@import "reset.css";
+@import "main.css";
+
+
+@import "header/header.css";
+
+@import "main/hero.css";
+@import "main/course-section.css";
+@import "main/main-link.css";
+
+@import "footer/footer.css";
