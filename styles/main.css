@@ -6,6 +6,10 @@
   text-transform: uppercase;
 }
 
+.box-shadow {
+  box-shadow: rgb(0, 0, 0) 5px 5px 0px 0px;
+}
+
 .span-orange {
   color: #ed4d1b;
 }
@@ -18,7 +22,6 @@
   background-color: #ff9a3c;
 }
 
-.translate-y {
+.translate {
   transform: translateY(20px);
 }
-

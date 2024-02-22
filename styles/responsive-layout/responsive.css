@@ -1,0 +1,113 @@
+header {
+  display: none; /* POR ENQUANTO */
+}
+
+@media screen and (max-width: 1300px) {
+  main .hero {
+    gap: 40px;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  main .course-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .translate {
+    transform: translateX(-15px);
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .hero-image img {
+    width: 600px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 0 5rem;
+  }
+
+  main .hero {
+    flex-wrap: wrap;
+  }
+
+  main .hero .hero-text {
+    order: 2;
+  }
+
+  main .hero .hero-image {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 0 3rem;
+  }
+
+  header .logo .tag-on-mobile {
+    display: block;
+  }
+
+  header nav ul header nav ul div {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 0 1.5rem;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+  footer {
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  footer .subscribe-footer {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main .hero .hero-text h1,
+  main .main-link h2 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+
+  main .hero .hero-text p {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  main .course-section .container-course-section {
+    min-width: 180px;
+    max-width: 180px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main .main-link h2 {
+    font-size: 36px;
+  }
+}

@@ -1,4 +1,5 @@
 main .hero {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 70px;
@@ -14,21 +15,21 @@ main .hero .hero-text {
 }
 
 main .hero .hero-text h1 {
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 55px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 55px;
 }
 
 main .hero .hero-text p {
-    font-size: 22px;
-    font-weight: 600;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 main .hero .hero-text a {
-    width: fit-content;
+  width: fit-content;
 }
 
 main .hero .hero-text .arrow-svg {
-    transform: translate(130px, 470px);
-    position: absolute;
+  transform: translate(130px, 470px);
+  position: absolute;
 }
