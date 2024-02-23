@@ -1,7 +1,3 @@
-header {
-  display: none; /* POR ENQUANTO */
-}
-
 @media screen and (max-width: 1300px) {
   main .hero {
     gap: 40px;
@@ -51,6 +47,16 @@ header {
   }
 }
 
+@media screen and (max-width: 950px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  header .f-btn {
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   body {
     padding: 0 3rem;
@@ -58,10 +64,6 @@ header {
 
   header .logo .tag-on-mobile {
     display: block;
-  }
-
-  header nav ul header nav ul div {
-    flex-direction: column;
   }
 }
 
@@ -103,6 +105,22 @@ header {
     min-width: 180px;
     max-width: 180px;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header nav ul {
+    gap: 20px;
+    text-align: center;
+  }
+  header nav ul div {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header .f-btn a {
+    font-size: 22px;
+    padding: 10px 40px;
   }
 }
 

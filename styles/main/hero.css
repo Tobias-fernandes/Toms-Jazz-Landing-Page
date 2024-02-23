@@ -30,6 +30,5 @@ main .hero .hero-text a {
 }
 
 main .hero .hero-text .arrow-svg {
-  transform: translate(130px, 470px);
-  position: absolute;
+  transform: translate(30px, 70px);
 }
